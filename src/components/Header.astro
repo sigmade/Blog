@@ -6,7 +6,7 @@ const { active } = Astro.props;
         <a href={import.meta.env.BASE_URL} class="logo">Мой Блог</a>
         <nav class="main-nav">
             <a href={import.meta.env.BASE_URL} class={active === 'articles' ? 'active' : ''}>Статьи</a>
-            <a href={`${import.meta.env.BASE_URL}about`} class={active === 'about' ? 'active' : ''}>Обо мне</a>
+            <a href={`${import.meta.env.BASE_URL}/about`} class={active === 'about' ? 'active' : ''}>Обо мне</a>
         </nav>
     </div>
 </header>
